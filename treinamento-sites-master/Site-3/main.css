@@ -1,0 +1,271 @@
+/* Global style */
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+p {
+    color: #b3b3b3;
+}
+*:focus {
+    outline: none;
+}
+/* ===== HomePage styles ===== */
+/* ---- Header Menu ----  */
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    z-index: 999;
+    width: 100%;
+    display: block;
+}
+#header-menu ul {
+    display: inline-block;
+}
+#header-menu  ul li {
+    display: inline-block;
+}
+#header-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s ease;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 21px 20px;
+    margin-right: 3px;
+}
+#header-menu ul li a:hover{
+    border-top: 1px solid #fff;
+    color: #ffff; 
+    padding: 20px 20px;
+}
+/* ---- FIM Header Menu ----  */
+/* ======= Slideshow ====== */
+.slideshow {
+    background: url(images/background-banner.png) no-repeat ;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    border-top: 10px solid green    ;
+    color: #fff;
+    padding-top: 100px;
+}
+.slideshow .icons-area .icon {
+    border-radius:100%;
+    padding: 20px 23px;
+    opacity: 0.5;
+    background-color: #000;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+}
+.slideshow .icons-area .icon:hover {
+    background-color: #2ecc71;
+    opacity: 1.8;
+}
+.group-banner {
+    padding-left: 125px;
+}
+.group-banner h3 {
+    font-size: 22px;
+}
+.hand-iphone {
+    text-align: center;
+}
+/* ======= FIM Slideshow ====== */
+/* ======= widget ======= */
+.conteudo {
+    margin: 60px 0 60px 0;
+}
+.icones-box {
+    text-align: center;
+}
+/* ======= FIM widget ======= */
+/* ======= Interatividade ======= */
+#interactivity {
+    background-color: #e3e3e3;
+}
+form {
+    position: relative;
+    width: 80%;
+}
+#inscricao input {
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    padding: 20px 27px;
+    margin-bottom: 25px;
+    display:  inline-block;
+    vertical-align: middle;
+}
+
+#inscricao .btn {
+    width: 38%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #2ecc71;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+}
+.mail {
+    width: 100%;
+    text-align: left;
+}
+.people-text {
+    text-align: center;
+}
+.group-title h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.group-title h2 {
+    margin-top: 60px;
+}
+/* ======= FIM da Interatividade ======= */
+/* ===== Redes Sociais===== */
+.redes-sociais {
+    text-align: center;
+    margin-top: 30px;
+}
+/* carolseu */
+
+.slider {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.slider img {
+    width: 100%;
+}
+.box-img {
+    max-height: 93px;
+    overflow: hidden;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 40px;
+    margin-right: 20px;
+}
+/* FIM carolsel */
+.redes-sociais .icons-area .icon {
+    border-radius: 100%;
+    padding: 10px 12px;
+    opacity: 0.3;
+    background-color: #000;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+}
+.redes-sociais .icons-area .icon:hover {
+    background-color: #2ecc71;
+    opacity: 1.8;
+}
+.center {
+    margin-top: 30px;
+}
+/* ==== Fim Redes Sociais ===== */
+/* ====Footer==== */
+#footer {
+    background-color: #e3e3e3;
+    padding: 60px 0;
+}
+#footer ul {
+}
+#footer ul li {
+    display: inline-block;
+    padding: 20px;
+}
+#footer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s ease;
+    font-size: 18px;
+    color: #848484;
+}
+.menu-footer {
+    text-align: center;
+}
+
+
+
+/* Responsivo */
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .icons-area {
+        margin-bottom: 50px;
+    }
+    .hand-iphone {
+        text-align: left;
+        margin-left: 67px;
+    }
+    .conteudo {
+        text-align: center;
+    }
+    form {
+        margin: 0 auto;
+    }
+    .slider img {
+        max-height: 77px;
+    }
+} /* end media query */
+@media screen and (max-width: 375px) {
+    .toggle {
+        display: block;
+    }
+    #header-menu ul {
+        width: 100%;
+        display: none;
+    }
+    #header-menu ul li  {
+        display: block;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+    .group-banner {
+        padding: 0;
+        text-align: center;
+    }
+    .hand-iphone img {
+        max-width: 100%;
+    }  
+    .video-mobile img {
+        max-width: 100%;
+    }
+    .slider img {
+        max-height: 23px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .redes-sociais .icons-area .icon {
+        margin-left: -14px;
+        padding-left: 10px;
+    }
+    #footer ul li {
+        padding: 10px;
+    }
+}

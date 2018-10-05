@@ -1,0 +1,232 @@
+@import './base/_variables.scss';
+@import './base/_mixins.scss';
+@import './base/_reset.scss';
+@import './layouts/bootstrap-3-grid.scss';
+
+
+body {
+  background-color: #27253f;
+  font-family: "Open Sans";
+}
+/* ----------Inicio Menu ---------- */
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+#header-menu ul {
+  margin-top: 53px;
+}
+#header-menu ul li {
+  display: inline-block;
+}
+#header-menu ul li a {
+width: 1054px;
+height: 24px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 700;
+padding: 15px 15px;
+text-transform: uppercase;
+transition: all .5s ease;
+/* Text style for "HOME     S" */
+letter-spacing: 4.4px;
+}
+#header-menu ul li a:hover {
+}
+/* ----------FIM Menu ---------- */
+/* ----------Inicio section SERVICES ---------- */
+.section-logo {
+  padding-left: 100px;
+  margin-top: 240px;
+}
+.logo {
+color: #ffffff;
+font-family: "Fjalla One";
+font-size: 70px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase;
+}
+.logo h1 {
+  margin: 100px 0px 50px 0px;
+}
+.description {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+.download-app {
+  width: 263px;
+  border-radius: 3px;
+  background-color: #6146d7;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px 10px;
+  display: inline-block;
+
+  p, 
+  .image-iphone {
+    display: inline-block; 
+  }
+  p {
+    margin: 0;
+  }
+  .image-iphone {
+    height: 37px;
+    width: 37px; 
+    margin-left: 15px;
+  }
+}
+.section-information{
+  margin-top: 220px;
+}
+.product-right {
+  background-color: #fff;
+  padding: 0 40px;
+  color: #000;
+}
+.items-top {
+  text-align: center;
+}
+.items-top a img {
+  height: 19px;
+  width: 23px;
+  margin-right: 130px;
+  margin-top: 32px;
+}
+.items-top p {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Fjalla One";
+  color: #27253f;
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+.information {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 21px 0;
+}
+.information-title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+.information-number {
+  font-family: "Fjalla One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.graphic-information {
+  max-width: 44%;
+  display: inline-block;
+  border: 0;
+  margin: 0;
+}
+.information-response {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 21px 0;
+}
+#monitoring {
+  background: url(img/fill.png) no-repeat ;
+  background-size: cover;
+  height: 100% ;
+  width: 100%;
+}
+.background-monitoring {
+  background-color: #fff;
+}
+.icones-monitoring {
+  display: inline-block;
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 3px 3px 0 0;
+  padding: 45px 0;
+}
+.icones-monitoring img {
+  display: inline-block;
+  width: 45px;
+  margin-left: 20px;
+}
+.icones-monitoring p {
+  display: inline-block;
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 3px 3px 0 0;
+  padding: 45px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.notice {
+  padding: 10px 90px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.notice-right {
+  font-family: "Fjalla One";
+  font-size: 55px;
+  font-weight: 400;
+  color: #27253f;
+  text-align: right;
+  padding-right: 63px;
+}
+
+// contact 
+#contact {
+  border-top: 10px solid #7d5bbe;
+  background-image: url(img/contact-bg.png);
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.title-contact {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 55px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.text-contact {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 75px;
+  text-align: center;
+  width: 100%;
+}
+#contact form {
+  padding: 0 30px;
+  display: inline-block;
+  width: 100%;
+}
+#contact form input {
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px 160px;
+}
+#contact form button {
+  display: inline-block;
+  background-color: #6146d7;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  transition: 0.35s;
+  padding: 20px 20px;
+}

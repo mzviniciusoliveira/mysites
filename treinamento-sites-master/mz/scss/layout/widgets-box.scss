@@ -1,17 +1,20 @@
 #widgets-box {
     padding: 60px 0;
     color: #fff;
+    h3 {
+        font-weight: bold;
+    }
     .lef {
         background: #008dd1;
-        padding: 100px 85px;
+        padding: 100px 45px;
          
     }
     .center {
         background: #008dd1;
-        padding: 100px 85px;
+        padding: 100px 45px;
     }
     .right {
         background: #008dd1;
-        padding: 100px 85px;
+        padding: 100px 45px;
     }
 }

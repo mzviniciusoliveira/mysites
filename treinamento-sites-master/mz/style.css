@@ -52,17 +52,20 @@ header .nav-menu nav ul li a img {
   padding: 60px 0;
   color: #fff;
 }
+#widgets-box h3 {
+  font-weight: bold;
+}
 #widgets-box .lef {
   background: #008dd1;
-  padding: 100px 85px;
+  padding: 100px 45px;
 }
 #widgets-box .center {
   background: #008dd1;
-  padding: 100px 85px;
+  padding: 100px 45px;
 }
 #widgets-box .right {
   background: #008dd1;
-  padding: 100px 85px;
+  padding: 100px 45px;
 }
 
 #presentation {
@@ -77,19 +80,19 @@ header .nav-menu nav ul li a img {
   font-weight: bold;
 }
 
-@font-face {
-  font-family: Myriad Pro;
-  src: url("Myriad Pro.otf");
-}
 ul {
   list-style: none;
 }
 
 #footer {
   background: #008dd1;
+  padding: 40px 0;
+  display: flex;
 }
 #footer .lista-footer {
   color: #fff;
+  align-items: center;
+  display: flex;
 }
 #footer .redes-sociais ul {
   text-align: right;
@@ -98,7 +101,4 @@ ul {
   display: inline-block;
   margin-left: 10px;
   font-size: 30px;
-}
-#footer .redes-sociais ul li a {
-  color: #fff;
 }

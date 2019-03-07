@@ -1,0 +1,19 @@
+#footer {
+    background: #008dd1;
+    .lista-footer{
+        color: #fff;
+    }
+    .redes-sociais {
+        ul {
+            text-align: right;
+            li {
+                display: inline-block;
+                margin-left: 10px;
+                font-size: 30px;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

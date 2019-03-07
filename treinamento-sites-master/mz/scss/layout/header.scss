@@ -1,0 +1,45 @@
+header {
+    background-color: #008dcf;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 0px;
+    z-index: 0;
+    opacity: 1;
+    background-position: 50% 0px;
+    .header-menu {
+        display: flex;
+    }
+    .logo {
+        width: 20%;
+        h1 {
+            color: #fff;
+            max-height: 100px;
+            font-size: 80px;
+        }
+    }
+    .nav-menu {
+        width: 80%;
+        text-align: right;
+        nav {
+            ul {
+                padding:0px;
+                margin:0px;
+                list-style:none;
+                li {
+                    display: inline;
+                    a {
+                        padding: 35px 10px;
+                        display: inline-block;
+                        color: #fff;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        img {
+                            width: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

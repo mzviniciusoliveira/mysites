@@ -54,6 +54,7 @@ header .nav-menu nav ul li a img {
 }
 #widgets-box h3 {
   font-weight: bold;
+  text-align: center;
 }
 #widgets-box .lef {
   background: #008dd1;

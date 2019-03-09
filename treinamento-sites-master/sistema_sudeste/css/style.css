@@ -30,6 +30,10 @@ label {
   font-size: 20px;
 }
 
+small {
+  margin-left: 10px;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;

@@ -26,6 +26,9 @@ body {
   margin-bottom: 0;
   line-height: 40px;
 }
+label {
+  font-size: 20px;
+}
 
 /* Custom page footer */
 .footer {

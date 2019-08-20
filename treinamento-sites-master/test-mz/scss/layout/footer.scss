@@ -1,0 +1,44 @@
+#footer {
+    background-color: #242424;
+    .link__footer {
+        display: flex;
+        .link__footer__left{
+            ul {
+                margin: 0;
+                padding: 10px 0;
+                li {
+                    display: inline-block;
+                    padding: 10px 15px;
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+        .link__footer__right {
+            text-align: right;
+            padding: 14px 0;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .copy {
+        p {
+            color: $white;
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 18px 0;
+        }
+    }
+}

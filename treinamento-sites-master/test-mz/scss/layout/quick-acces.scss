@@ -1,0 +1,51 @@
+#quick-acces {
+    background: url(./images/fundo-quick-acces.png) no-repeat center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(129deg, #2cadfe 0%, #f514fb 100%);
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        z-index: -1;
+        border: 1px solid #979797;
+      }
+    .title-acces {
+        font-size: 38px;
+        color: $white;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .links-rapidos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .link-item {
+            display: flex;
+            flex-direction: column; 
+            padding: 40px 0;
+            a {
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                img {
+                object-fit: contain;
+                padding-bottom: 15px;
+                }
+                p {
+                    color: $white;
+                    font-size: 20px;
+                    font-weight: 400;
+                    letter-spacing: 0.2px;
+                }
+            }
+        }
+    }
+}
